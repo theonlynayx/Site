@@ -2,17 +2,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-    <title>Portfolio Personnel</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
 <body>
-
     <nav>
         <div class="logo">
-            
+            <img src="assets/logo.png">
         </div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#work">Entrainement</a></li>
+            <li><a href="#nutrition">Nutrition</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button onclick="window.location.href='#work';">Commencer dès maintenant</button>
+        <button id="menuButton" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
     </nav>
-    
+
+    <div class="main" id="main">
+        <div class="left">
+            <h3>Titre</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quod asperiores incidunt aliquam enim, consequatur odio distinctio at provident facilis. Odit, voluptas! Quis, error? Quos ea culpa odit qui tempora.
+            </p>
+            <button onclick="window.location.href='#work';">Commencer dès maintenant</button>
+        </div>
+        <div class="right">
+            <img src="assets/header-img.jpg">
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="left">
+            <img src="assets/about-img.jpg">
+        </div>
+        <div class="right">
+            <h3>Titre</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quod asperiores incidunt aliquam enim, consequatur odio distinctio at provident facilis. Odit, voluptas! Quis, error? Quos ea culpa odit qui tempora.
+            </p>
+        </div>
+    </div>
+
+    <div class="work" id="work">
+
+    </div>
+
+    <div class="nutrition" id="nutrition">
+
+    </div>
+
+    <div class="feedback" id="feedback">
+        <h5>Clients Reviews</h5>
+        <h3>Customers Feedback</h3>
+        <div class="customers">
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra.
+                </p>
+                <div class="user">
+                    <img src="assets/us-1.jpg">
+                    <div class="info">
+                        <h5>Sonic</h5>
+                        <p>Green Hill</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra.
+                </p>
+                <div class="user">
+                    <img src="assets/us-2.jpg">
+                    <div class="info">
+                        <h5>Ricardo</h5>
+                        <p>Tes rêves</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra.
+                </p>
+                <div class="user">
+                    <img src="assets/us-3.jpg">
+                    <div class="info">
+                        <h5>Shrek</h5>
+                        <p>Marais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <img src="assets/nayx-logo.png">
+            </div>
+            <ul>
+                <li><a href="#main">Home</a></li>
+            </ul>
+            <div class="sns">
+                <a href="https://www.instagram.com/xavier_peillon/"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+            <p>
+                Made By Nayx #2024
+            </p>
+            <div class="links">
+                <a href="#">Politique confidentialité</a>
+                <a href="#">Termes d'utilisation</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
